@@ -5,7 +5,7 @@ session_start();
 $servername = "localhost";
 $username = "root";  // Your database username
 $password = "";      // Your database password
-$dbname = "AUTOBUBA_db";  // Using your actual database name
+$dbname = "quolywheels_db";  // Using your actual database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

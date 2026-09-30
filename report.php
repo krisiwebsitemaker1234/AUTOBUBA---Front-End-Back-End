@@ -119,7 +119,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <title>AUTOBUBA - Report a Problem</title>
+    <title>QUOLYWHEELS - Report a Problem</title>
     <style>
         :root {
             --primary-color: #dc3545;
@@ -367,12 +367,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     </style>
     <meta charset="UTF-8">
-    <meta name="description" content="AUTOBUBA - Report a Problem">
-    <meta name="keywords" content="AUTOBUBA, report, problem, support">
+    <meta name="description" content="QUOLYWHEELS - Report a Problem">
+    <meta name="keywords" content="QUOLYWHEELS, report, problem, support">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/dfba5e2447.js" crossorigin="anonymous"></script>
-    <title>AUTOBUBA - Report a Problem</title>
+    <title>QUOLYWHEELS - Report a Problem</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">

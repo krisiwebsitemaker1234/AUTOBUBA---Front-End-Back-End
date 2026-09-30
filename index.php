@@ -40,8 +40,8 @@ $featured_vehicles = $conn->query($featured_query);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="img/autobuba logo.png" type="image/png">
-    <title>AUTOBUBA - Home</title>
+    <link rel="icon" href="img/quolywheels logo.png" type="image/png">
+    <title>QUOLYWHEELS - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
@@ -690,8 +690,8 @@ $featured_vehicles = $conn->query($featured_query);
                 <div id="progress-bar" class="progress-bar"></div>
             </div>
 
-            <!-- AUTOBUBA Text -->
-            <div class="autobuba-text">AUTOBUBA</div>
+            <!-- QUOLYWHEELS Text -->
+            <div class="quolywheels-text">QUOLYWHEELS</div>
         </div>
     </div>
 
@@ -700,7 +700,7 @@ $featured_vehicles = $conn->query($featured_query);
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="./index.php">
-                    <img src="img/logo zoom.png" alt="AUTOBUBA" class="img-fluid" style="max-height: 60px;">
+                    <img src="img/logo zoom.png" alt="QUOLYWHEELS" class="img-fluid" style="max-height: 60px;">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -1468,14 +1468,14 @@ $featured_vehicles = $conn->query($featured_query);
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <img src="img/logo zoom.png" alt="Autobuba Logo" class="img-fluid">
+                        <img src="img/logo zoom.png" alt="quolywheels Logo" class="img-fluid">
                     </div>
                     <div class="footer__contact-box">
-                        <p><i class="fa fa-envelope"></i> autobuba2025@gmail.com</p>
+                        <p><i class="fa fa-envelope"></i> quolywheels2025@gmail.com</p>
                         <p><i class="fa fa-phone"></i> +355 69 311 3209</p>
                     </div>
                     <div class="footer__social">
-                        <a href="https://www.tiktok.com/@autobuba1" class="social-btn tiktok" target="_blank">
+                        <a href="https://www.tiktok.com/@quolywheels1" class="social-btn tiktok" target="_blank">
                             <i class="fa-brands fa-tiktok"></i>
                         </a>
                         <a href="https://www.instagram.com/auto_buba?igsh=MWg1b213Y3oxeG1ydg=="
@@ -1597,7 +1597,7 @@ $featured_vehicles = $conn->query($featured_query);
         <strong class="mr-1">Need to Buy or Rent?</strong>For assistance with any of these cars, please contact us at 
         <a class="ml-1" href="tel:+355 69 311 3209" style="color: #d90429; text-decoration: none; font-weight: 600;">+355 69 311 3209</a>
         or email us at 
-        <a class="ml-1" href="mailto:autobuba2025@gmail.com " style="color: #d90429; text-decoration: none; font-weight: 600;">autobuba2025@gmail.com </a>
+        <a class="ml-1" href="mailto:quolywheels2025@gmail.com " style="color: #d90429; text-decoration: none; font-weight: 600;">quolywheels2025@gmail.com </a>
     </p>
 </div>
 
@@ -1608,7 +1608,7 @@ $featured_vehicles = $conn->query($featured_query);
 <script>
 // Complete Cart JavaScript - Replace your existing cart JS with this
 
-let cart = JSON.parse(localStorage.getItem('autobuba_cart')) || [];
+let cart = JSON.parse(localStorage.getItem('quolywheels_cart')) || [];
 
 // Clean up any corrupted cart items
 cart = cart.filter(item => {
@@ -1621,7 +1621,7 @@ cart = cart.filter(item => {
 });
 
 // Save the cleaned cart back
-localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
 
 document.addEventListener('DOMContentLoaded', function() {
     updateCartCounter();
@@ -1661,7 +1661,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
             
             cart.push(cartItem);
-            localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+            localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
             
             updateCartCounter();
             showToast('success', 'Item added to cart!');
@@ -1763,7 +1763,7 @@ function removeFromCart(vehicleId) {
     cart = cart.filter(item => item && item.id !== vehicleId);
     
     if (cart.length < originalLength) {
-        localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+        localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
         updateCartCounter();
         showCartSidebar();
         
@@ -2253,7 +2253,7 @@ const translations = {
 
     // Loading Screen
     "km/h": "km/h",
-    "Home - AUTOBUBA": "Home - AUTOBUBA",
+    "Home - QUOLYWHEELS": "Home - QUOLYWHEELS",
   },
   sq: {
     // Header
@@ -2366,7 +2366,7 @@ const translations = {
 
     // Loading Screen
     "km/h": "km/h",
-    "Home - AUTOBUBA": "Kryefaqja - AUTOBUBA",
+    "Home - QUOLYWHEELS": "Kryefaqja - QUOLYWHEELS",
   },
 }
 
@@ -2384,11 +2384,11 @@ class LanguageManager {
   }
 
   getStoredLanguage() {
-    return localStorage.getItem("autobuba_language")
+    return localStorage.getItem("quolywheels_language")
   }
 
   setStoredLanguage(lang) {
-    localStorage.setItem("autobuba_language", lang)
+    localStorage.setItem("quolywheels_language", lang)
   }
 
   setupEventListeners() {
@@ -2474,8 +2474,8 @@ class LanguageManager {
     })
 
     // Update page title
-    if (currentTranslations["Home - AUTOBUBA"]) {
-      document.title = currentTranslations["Home - AUTOBUBA"]
+    if (currentTranslations["Home - QUOLYWHEELS"]) {
+      document.title = currentTranslations["Home - QUOLYWHEELS"]
     }
 
     // Update HTML lang attribute

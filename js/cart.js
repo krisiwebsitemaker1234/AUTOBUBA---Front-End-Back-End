@@ -1,6 +1,6 @@
-class AutobubaCart {
+class quolywheelsCart {
     constructor() {
-        this.cartKey = 'autobuba_cart';
+        this.cartKey = 'quolywheels_cart';
         this.cartSidebar = document.getElementById('cartCars');
         this.init();
     }
@@ -15,7 +15,7 @@ class AutobubaCart {
         // Set up event listeners
         this.setupEventListeners();
 
-        window.AutobubaCart = cart;
+        window.quolywheelsCart = cart;
     }
 
     
@@ -161,5 +161,5 @@ class AutobubaCart {
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    window.AutobubaCart = new AutobubaCart();
+    window.quolywheelsCart = new quolywheelsCart();
 });

@@ -40,7 +40,7 @@ if (!$sale) die("Invalid sale record");
 <head>
     <meta charset="UTF-8">
     <title>Invoice #<?= $sale['id'] ?> | <?= htmlspecialchars(SITE_NAME) ?></title>
-    <link rel="icon" href="img/autobuba logo.png">
+    <link rel="icon" href="img/quolywheels logo.png">
     <style>
         /* Base styles */
         body {

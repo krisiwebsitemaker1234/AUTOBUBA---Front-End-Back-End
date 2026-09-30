@@ -46,7 +46,7 @@ $stmt->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AUTOBUBA <?= htmlspecialchars($car['make'] ?? '') ?> <?= htmlspecialchars($car['model'] ?? '') ?></title>
+    <title>QUOLYWHEELS <?= htmlspecialchars($car['make'] ?? '') ?> <?= htmlspecialchars($car['model'] ?? '') ?></title>
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -660,7 +660,7 @@ $stmt->close();
                                 <div class="contact-icon">
                                     <i class="fas fa-envelope"></i>
                                 </div>
-                                <span>autobuba2025@gmail.com</span>
+                                <span>quolywheels2025@gmail.com</span>
                             </div>
                             <div class="d-flex align-items-center contact-info-item">
                                 <div class="contact-icon">
@@ -763,7 +763,7 @@ $stmt->close();
             if (navigator.share) {
                 navigator.share({
                     title: '<?= htmlspecialchars($car['year'] ?? '') ?> <?= htmlspecialchars($car['make'] ?? '') ?> <?= htmlspecialchars($car['model'] ?? '') ?>',
-                    text: 'Check out this <?= htmlspecialchars($car['year'] ?? '') ?> <?= htmlspecialchars($car['make'] ?? '') ?> <?= htmlspecialchars($car['model'] ?? '') ?> on AUTOBUBA!',
+                    text: 'Check out this <?= htmlspecialchars($car['year'] ?? '') ?> <?= htmlspecialchars($car['make'] ?? '') ?> <?= htmlspecialchars($car['model'] ?? '') ?> on QUOLYWHEELS!',
                     url: window.location.href
                 })
                 .catch(error => console.log('Error sharing:', error));

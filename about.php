@@ -127,12 +127,12 @@ $testimonials_result = $conn->query($testimonials_query);
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="AUTOBUBA - Premium Car Marketplace">
+    <meta name="description" content="QUOLYWHEELS - Premium Car Marketplace">
     <meta name="keywords" content="cars, marketplace, automotive, buy, rent">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="img/autobuba logo.png" type="image/png">
-    <title data-translate="About Us">AUTOBUBA - About Us</title>
+    <link rel="icon" href="img/quolywheels logo.png" type="image/png">
+    <title data-translate="About Us">QUOLYWHEELS - About Us</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
@@ -941,8 +941,8 @@ $testimonials_result = $conn->query($testimonials_query);
                 <div id="progress-bar" class="progress-bar"></div>
             </div>
 
-            <!-- AUTOBUBA Text -->
-            <div class="autobuba-text">AUTOBUBA</div>
+            <!-- QUOLYWHEELS Text -->
+            <div class="quolywheels-text">QUOLYWHEELS</div>
         </div>
     </div>
 
@@ -951,7 +951,7 @@ $testimonials_result = $conn->query($testimonials_query);
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="./index.php">
-                    <img src="img/logo zoom.png" alt="AUTOBUBA" class="img-fluid" style="max-height: 60px;">
+                    <img src="img/logo zoom.png" alt="QUOLYWHEELS" class="img-fluid" style="max-height: 60px;">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -1124,7 +1124,7 @@ $testimonials_result = $conn->query($testimonials_query);
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2 data-translate="About AUTOBUBA">About AUTOBUBA</h2>
+                        <h2 data-translate="About QUOLYWHEELS">About QUOLYWHEELS</h2>
                         <div class="breadcrumb__links">
                             <a href="./index.php"><i class="fa fa-home"></i> <span
                                     data-translate="Home">Home</span></a>
@@ -1143,11 +1143,11 @@ $testimonials_result = $conn->query($testimonials_query);
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h2 class="mb-4" data-translate="our_story_title">Our Story</h2>
-                    <p class="mb-4" data-translate="our_story_text">Founded recently in 2025, AUTOBUBA is leading to be one of the most trusted car dealers in the region. Our commitment to quality, transparency, and customer satisfaction has made us the preferred choice for thousands of satisfied customers.</p>
+                    <p class="mb-4" data-translate="our_story_text">Founded recently in 2025, QUOLYWHEELS is leading to be one of the most trusted car dealers in the region. Our commitment to quality, transparency, and customer satisfaction has made us the preferred choice for thousands of satisfied customers.</p>
                     <p data-translate="our_mission_text">We believe that buying a car should be an exciting and stress-free experience. That's why we've built our business on the principles of honesty, integrity, and exceptional customer service.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="img/logo zoom.png" alt="AUTOBUBA Showroom" class="img-fluid">
+                    <img src="img/logo zoom.png" alt="QUOLYWHEELS Showroom" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -1158,7 +1158,7 @@ $testimonials_result = $conn->query($testimonials_query);
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center mb-5">
-                    <h2 class="mb-4" data-translate="why_choose_title">Why Choose AUTOBUBA?</h2>
+                    <h2 class="mb-4" data-translate="why_choose_title">Why Choose QUOLYWHEELS?</h2>
                     <p class="lead" data-translate="why_choose_subtitle">We offer more than just cars - we provide a complete automotive experience.</p>
                 </div>
             </div>
@@ -1312,14 +1312,14 @@ $testimonials_result = $conn->query($testimonials_query);
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <img src="img/logo zoom.png" alt="Autobuba Logo" class="img-fluid">
+                        <img src="img/logo zoom.png" alt="quolywheels Logo" class="img-fluid">
                     </div>
                     <div class="footer__contact-box">
-                        <p><i class="fa fa-envelope"></i> autobuba2025@gmail.com</p>
+                        <p><i class="fa fa-envelope"></i> quolywheels2025@gmail.com</p>
                         <p><i class="fa fa-phone"></i> +355 69 311 3209</p>
                     </div>
                     <div class="footer__social">
-                        <a href="https://www.tiktok.com/@autobuba1" class="social-btn tiktok" target="_blank">
+                        <a href="https://www.tiktok.com/@quolywheels1" class="social-btn tiktok" target="_blank">
                             <i class="fa-brands fa-tiktok"></i>
                         </a>
                         <a href="https://www.instagram.com/auto_buba?igsh=MWg1b213Y3oxeG1ydg=="
@@ -1445,7 +1445,7 @@ $testimonials_result = $conn->query($testimonials_query);
 
     <!-- Complete Cart JavaScript -->
     <script>
-    let cart = JSON.parse(localStorage.getItem('autobuba_cart')) || [];
+    let cart = JSON.parse(localStorage.getItem('quolywheels_cart')) || [];
 
     // Clean up any corrupted cart items
     cart = cart.filter(item => {
@@ -1458,7 +1458,7 @@ $testimonials_result = $conn->query($testimonials_query);
     });
 
     // Save the cleaned cart back
-    localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+    localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
 
     document.addEventListener('DOMContentLoaded', function() {
         updateCartCounter();
@@ -1547,7 +1547,7 @@ $testimonials_result = $conn->query($testimonials_query);
         cart = cart.filter(item => item && item.id !== vehicleId);
         
         if (cart.length < originalLength) {
-            localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+            localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
             updateCartCounter();
             showCartSidebar();
             showToast('success', 'Item removed from cart!');
@@ -1692,12 +1692,12 @@ $testimonials_result = $conn->query($testimonials_query);
         "Log In": "Log In",
 
         // About Page
-        "About AUTOBUBA": "About AUTOBUBA",
+        "About QUOLYWHEELS": "About QUOLYWHEELS",
         Home: "Home",
         our_story_title: "Our Story",
-        our_story_text: "Founded recently in 2025, AUTOBUBA is leading to be one of the most trusted car dealers in the region. Our commitment to quality, transparency, and customer satisfaction has made us the preferred choice for thousands of satisfied customers.",
+        our_story_text: "Founded recently in 2025, QUOLYWHEELS is leading to be one of the most trusted car dealers in the region. Our commitment to quality, transparency, and customer satisfaction has made us the preferred choice for thousands of satisfied customers.",
         our_mission_text: "We believe that buying a car should be an exciting and stress-free experience. That's why we've built our business on the principles of honesty, integrity, and exceptional customer service.",
-        why_choose_title: "Why Choose AUTOBUBA?",
+        why_choose_title: "Why Choose QUOLYWHEELS?",
         why_choose_subtitle: "We offer more than just cars - we provide a complete automotive experience.",
         quality_assurance: "Quality Assurance",
         quality_assurance_text: "Every vehicle undergoes rigorous inspection to ensure the highest quality standards.",
@@ -1731,7 +1731,7 @@ $testimonials_result = $conn->query($testimonials_query);
         Hatchback: "Hatchback",
         Sedan: "Sedan",
         SUV: "SUV",
-        "Copyright 2025 AUTOBUBA. All Rights Reserved.": "© Copyright 2025 QUOLYTECH. All Rights Reserved.",
+        "Copyright 2025 QUOLYWHEELS. All Rights Reserved.": "© Copyright 2025 QUOLYTECH. All Rights Reserved.",
 
         // Cart
         "Your Cart": "Your Cart",
@@ -1746,12 +1746,12 @@ $testimonials_result = $conn->query($testimonials_query);
         "Log In": "Hyr",
 
         // About Page
-        "About AUTOBUBA": "Rreth AUTOBUBA",
+        "About QUOLYWHEELS": "Rreth QUOLYWHEELS",
         Home: "Kryefaqja",
         our_story_title: "Historia Jonë",
-        our_story_text: "E themeluar në 2025, AUTOBUBA synon të jetë një nga dealerët më të besuar të makinave në rajon. Angazhimi ynë ndaj cilësisë, transparencës dhe kënaqësisë së klientëve na ka bërë zgjedhjen e preferuar për mijëra klientë të kënaqur.",
+        our_story_text: "E themeluar në 2025, QUOLYWHEELS synon të jetë një nga dealerët më të besuar të makinave në rajon. Angazhimi ynë ndaj cilësisë, transparencës dhe kënaqësisë së klientëve na ka bërë zgjedhjen e preferuar për mijëra klientë të kënaqur.",
         our_mission_text: "Ne besojmë se blerja e një makine duhet të jetë një përvojë emocionuese dhe pa stres. Prandaj kemi ndërtuar biznesin tonë mbi parimet e ndershmërisë, integritetit dhe shërbimit të jashtëzakonshëm të klientëve.",
-        why_choose_title: "Pse të Zgjidhni AUTOBUBA?",
+        why_choose_title: "Pse të Zgjidhni QUOLYWHEELS?",
         why_choose_subtitle: "Ne ofrojmë më shumë se thjesht makina - ne sigurojmë një përvojë të plotë automobilistike.",
         quality_assurance: "Sigurimi i Cilësisë",
         quality_assurance_text: "Çdo automjet kalon kontrolle të rreptë për të siguruar standardet më të larta të cilësisë.",
@@ -1759,7 +1759,7 @@ $testimonials_result = $conn->query($testimonials_query);
         trusted_service_text: "Mbi një dekadë përvojë në shërbimin e klientëve me ndershmëri dhe transparencë.",
         after_sales: "Mbështetje Pas Shitjes",
         after_sales_text: "Shërbime gjithëpërfshirëse mirëmbajtjeje dhe mbështetjeje për të gjithë klientët tanë.",
-        why_choose_title: "Pse të Zgjidhni AUTOBUBA?",
+        why_choose_title: "Pse të Zgjidhni QUOLYWHEELS?",
         why_choose_subtitle: "Ne ofrojmë më shumë se thjesht makina - ne sigurojmë një përvojë të plotë automobilistike.",
         quality_assurance: "Sigurimi i Cilësisë",
         quality_assurance_text: "Çdo automjet kalon kontrolle të rreptë për të siguruar standardet më të larta të cilësisë.",
@@ -1793,7 +1793,7 @@ $testimonials_result = $conn->query($testimonials_query);
         Hatchback: "Hatchback",
         Sedan: "Sedan",
         SUV: "SUV",
-        "Copyright 2025 AUTOBUBA. All Rights Reserved.": "© E drejta e autorit 2025 QUOLYTECH. Të gjitha të drejtat e rezervuara.",
+        "Copyright 2025 QUOLYWHEELS. All Rights Reserved.": "© E drejta e autorit 2025 QUOLYTECH. Të gjitha të drejtat e rezervuara.",
 
         // Cart
         "Your Cart": "Shporta Juaj",
@@ -1815,11 +1815,11 @@ $testimonials_result = $conn->query($testimonials_query);
       }
 
       getStoredLanguage() {
-        return localStorage.getItem("autobuba_language")
+        return localStorage.getItem("quolywheels_language")
       }
 
       setStoredLanguage(lang) {
-        localStorage.setItem("autobuba_language", lang)
+        localStorage.setItem("quolywheels_language", lang)
       }
 
       setupEventListeners() {
@@ -1906,7 +1906,7 @@ $testimonials_result = $conn->query($testimonials_query);
 
         // Update page title
         if (currentTranslations["About Us"]) {
-          document.title = currentTranslations["About Us"] + " - AUTOBUBA"
+          document.title = currentTranslations["About Us"] + " - QUOLYWHEELS"
         }
 
         // Update HTML lang attribute

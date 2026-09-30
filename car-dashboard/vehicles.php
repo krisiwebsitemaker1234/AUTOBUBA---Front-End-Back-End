@@ -148,7 +148,7 @@ function handleImageUpload($file) {
             $filename = uniqid() . '_' . basename($file['name']);
             $targetPath = $uploadDir . $filename;
             if (move_uploaded_file($file['tmp_name'], $targetPath)) {
-                // Return the path relative to the main AUTOBUBA folder for database storage
+                // Return the path relative to the main QUOLYWHEELS folder for database storage
                 return 'img/cars/' . $filename;
             }
         }
@@ -324,7 +324,7 @@ $vehicles = getVehicles();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vehicle Inventory | <?= SITE_NAME ?></title>
-    <link rel="icon" href="img/autobuba logo.png">
+    <link rel="icon" href="img/quolywheels logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>

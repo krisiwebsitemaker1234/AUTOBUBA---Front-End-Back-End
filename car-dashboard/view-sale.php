@@ -45,7 +45,7 @@ if (!$sale) {
     <meta charset="UTF-8">
     <title>Sale Details | <?= htmlspecialchars(SITE_NAME) ?></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="icon" href="img/autobuba logo.png">
+    <link rel="icon" href="img/quolywheels logo.png">
 </head>
 <body class="bg-light">
     <?php include 'includes/sidebar.php'; ?>

@@ -2,7 +2,7 @@
 <aside class="sidebar">
     <div class="logo">
         <i class="fas fa-car"></i>
-        <span>AUTOBUBA</span>
+        <span>QUOLYWHEELS</span>
     </div>
     <nav class="menu">
         <ul>

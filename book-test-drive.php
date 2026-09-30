@@ -406,10 +406,10 @@ $vehicles_result = $conn->query($vehicles_query);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Booking.css">
     <link rel="stylesheet" href="loading.css">
-    <link rel="icon" href="img/autobuba logo.png" type="image/png">
+    <link rel="icon" href="img/quolywheels logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>AUTOBUBA - Book A Test Drive</title>
+    <title>QUOLYWHEELS - Book A Test Drive</title>
     <style>
         /* Error message styling */
         .error-message {
@@ -1440,15 +1440,15 @@ $vehicles_result = $conn->query($vehicles_query);
                 <div id="progress-bar" class="progress-bar"></div>
             </div>
             
-            <!-- AUTOBUBA Text -->
-            <div class="autobuba-text">AUTOBUBA</div>
+            <!-- QUOLYWHEELS Text -->
+            <div class="quolywheels-text">QUOLYWHEELS</div>
         </div>
     </div>
 
     <div class="container">
         <div class="header">
             <div class="logo">
-                <a href="index.php">AUTOBUBA</a>
+                <a href="index.php">QUOLYWHEELS</a>
             </div>
             <div class="cart-icon">
                 <i class="fas fa-car"></i>
@@ -1622,7 +1622,7 @@ $vehicles_result = $conn->query($vehicles_query);
                     <?php endwhile; ?>
                 <?php else: ?>
                     <!-- Fallback cars if no vehicles in database -->
-                    <div class="car-card" data-model="AUTOBUBA Sedan" data-available="true">
+                    <div class="car-card" data-model="QUOLYWHEELS Sedan" data-available="true">
                         <div class="car-image" style="background-image: url('img/car placeholder.webp')"></div>
                         <div class="car-info">
                             <div class="car-model">No Cars</div>
@@ -1721,7 +1721,7 @@ $vehicles_result = $conn->query($vehicles_query);
                         </label>
                         <select id="location" name="location" required>
                             <option value="">Select a location</option>
-                            <option value="north">AUTOBUBA Test Drive</option>
+                            <option value="north">QUOLYWHEELS Test Drive</option>
                         </select>
                     </div>
 

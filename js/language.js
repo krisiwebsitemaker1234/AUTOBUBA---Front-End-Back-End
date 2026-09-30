@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }, 100);
         
-        localStorage.setItem('autobuba_language', languageCode);
+        localStorage.setItem('quolywheels_language', languageCode);
     }
     
     // Set click handlers
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Apply saved language
-    const savedLanguage = localStorage.getItem('autobuba_language');
+    const savedLanguage = localStorage.getItem('quolywheels_language');
     if (savedLanguage) {
         setLanguage(savedLanguage);
     }
@@ -81,7 +81,7 @@ window.addEventListener('load', function() {
     setTimeout(() => {
         if (!document.querySelector('.goog-te-combo')) {
             console.warn('Google Translate failed to load, implementing fallback');
-            const savedLang = localStorage.getItem('autobuba_language') || 'en';
+            const savedLang = localStorage.getItem('quolywheels_language') || 'en';
             document.querySelectorAll('[data-translate]').forEach(el => {
                 const key = el.getAttribute('data-translate');
                 if (savedLang === 'sq') {

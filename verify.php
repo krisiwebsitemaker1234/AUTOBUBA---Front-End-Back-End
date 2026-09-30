@@ -35,7 +35,7 @@ if (empty($token)) {
             $update_stmt->bind_param("i", $user['id']);
             
             if ($update_stmt->execute()) {
-                $message = "Congratulations! Your email has been verified successfully. Welcome to AUTOBUBA!";
+                $message = "Congratulations! Your email has been verified successfully. Welcome to QUOLYWHEELS!";
                 $message_type = 'success';
             } else {
                 $message = "Failed to verify email. Please try again or contact support.";
@@ -56,8 +56,8 @@ if (empty($token)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Verification - AUTOBUBA</title>
-    <link rel="icon" href="img/autobuba logo.png" type="image/png">
+    <title>Email Verification - QUOLYWHEELS</title>
+    <link rel="icon" href="img/quolywheels logo.png" type="image/png">
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -275,7 +275,7 @@ if (empty($token)) {
         <div class="verify-header">
             <div class="content">
                 <div class="logo">
-                    <img src="img/logo zoom.png" alt="AUTOBUBA" class="img-fluid">
+                    <img src="img/logo zoom.png" alt="QUOLYWHEELS" class="img-fluid">
                 </div>
                 <div class="verify-icon <?= $message_type ?>">
                     <?php if ($message_type === 'success'): ?>

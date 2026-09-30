@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `autobuba_db`
+-- Database: `quolywheels_db`
 --
 
 -- --------------------------------------------------------
@@ -283,7 +283,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `full_name`, `role`, `status`, `phone`, `address`, `profile_image`, `created_at`, `updated_at`, `last_login`, `email_verified`, `verification_token`, `reset_token`, `reset_token_expires`, `timezone`, `avatar`) VALUES
-(1, 'AUTOadmin', 'admin@autobuba.com', '$2y$10$VP5P7jNICZJPYRXVxtHfu.bHatEVEbsXikg90vHEZMInxIobJUaZ6', 'admin', 'admin', 'active', NULL, NULL, 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png', '2025-04-02 16:56:32', '2025-06-03 08:48:52', '2025-06-03 08:48:52', 0, NULL, NULL, NULL, 'Europe/Tirane', 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png');
+(1, 'AUTOadmin', 'admin@quolywheels.com', '$2y$10$VP5P7jNICZJPYRXVxtHfu.bHatEVEbsXikg90vHEZMInxIobJUaZ6', 'admin', 'admin', 'active', NULL, NULL, 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png', '2025-04-02 16:56:32', '2025-06-03 08:48:52', '2025-06-03 08:48:52', 0, NULL, NULL, NULL, 'Europe/Tirane', 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png');
 
 -- --------------------------------------------------------
 

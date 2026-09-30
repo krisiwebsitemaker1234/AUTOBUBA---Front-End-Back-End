@@ -68,10 +68,10 @@ $stats_stmt->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/autobuba logo.png" type="image/png">
+    <link rel="icon" href="img/quolywheels logo.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>AUTOBUBA - My Bookings</title>
+    <title>QUOLYWHEELS - My Bookings</title>
     <style>
         * {
             margin: 0;
@@ -773,7 +773,7 @@ $stats_stmt->close();
         <!-- Header -->
         <div class="header">
             <div class="logo">
-                <a href="index.php">AUTOBUBA</a>
+                <a href="index.php">QUOLYWHEELS</a>
             </div>
             <div class="user-info">
                 <div class="user-avatar">
@@ -817,7 +817,7 @@ $stats_stmt->close();
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>support@autobuba.com</span>
+                    <span>support@quolywheels.com</span>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-clock"></i>
@@ -1160,7 +1160,7 @@ $stats_stmt->close();
                             <i class="fas fa-phone-alt" style="font-size: 1.2rem;"></i>
                             <div>
                                 <strong>Need to make changes?</strong><br>
-                                <span style="font-size: 0.9rem;">Call us at (555) 123-CARS or email support@autobuba.com</span>
+                                <span style="font-size: 0.9rem;">Call us at (555) 123-CARS or email support@quolywheels.com</span>
                             </div>
                         </div>
                     `;

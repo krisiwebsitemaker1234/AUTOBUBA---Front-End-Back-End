@@ -135,7 +135,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AUTOBUBA - Login</title>
+    <title>QUOLYWHEELS - Login</title>
     <link rel="icon" href="/placeholder.svg?height=32&width=32" type="image/svg+xml">
     
     <!-- Bootstrap CSS -->
@@ -543,7 +543,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
                 <div class="car-icon">
                     <img src="img/image.jpg" alt="Car Icon" class="img-fluid">
                 </div>
-                <h2>Welcome to AUTOBUBA</h2>
+                <h2>Welcome to QUOLYWHEELS</h2>
                 <p>Your trusted partner in finding the perfect vehicle. Join thousands of satisfied customers who have found their dream cars with us.</p>
                 
                 <div class="features">
@@ -567,7 +567,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
         <div class="login-right">
             <div class="form-container">
                 <div class="logo">
-                    <img src="img/logo zoom.png" alt="AUTOBUBA" class="img-fluid">
+                    <img src="img/logo zoom.png" alt="QUOLYWHEELS" class="img-fluid">
                 </div>
 
                 <!-- Form Tabs -->

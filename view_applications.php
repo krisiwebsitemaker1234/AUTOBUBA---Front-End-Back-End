@@ -71,11 +71,11 @@ $total_pages = ceil($total_applications / $per_page);
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Job Applications Management - AUTOBUBA">
-    <meta name="keywords" content="AUTOBUBA, jobs, applications, careers">
+    <meta name="description" content="Job Applications Management - QUOLYWHEELS">
+    <meta name="keywords" content="QUOLYWHEELS, jobs, applications, careers">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AUTOBUBA - Job Applications</title>
+    <title>QUOLYWHEELS - Job Applications</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -434,7 +434,7 @@ $total_pages = ceil($total_applications / $per_page);
     <header class="simple-header">
         <div class="container">
             <div class="logo">
-                <img src="img/logo zoom.png" alt="AUTOBUBA" class="img-fluid">
+                <img src="img/logo zoom.png" alt="QUOLYWHEELS" class="img-fluid">
                 <h3>Job Applications Management</h3>
             </div>
             <a href="index.php" class="home-btn">

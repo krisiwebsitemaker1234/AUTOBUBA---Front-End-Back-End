@@ -6,11 +6,11 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Base configuration
 define('BASE_URL', 'http://localhost/car-dashboard');
-define('SITE_NAME', 'AUTOBUBA');
+define('SITE_NAME', 'QUOLYWHEELS');
 
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'AUTOBUBA_db'); 
+define('DB_NAME', 'quolywheels_db'); 
 define('DB_USER', 'root');
 define('DB_PASS', '');
 

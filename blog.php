@@ -108,7 +108,7 @@ $blog_posts = [
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <title>AUTOBUBA - Blog</title>
+    <title>QUOLYWHEELS - Blog</title>
     <style>
         :root {
             --primary-color: #dc3545;
@@ -894,7 +894,7 @@ $blog_posts = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/dfba5e2447.js" crossorigin="anonymous"></script>
-    <title data-translate="Blog - AUTOBUBA">AUTOBUBA - Blog</title>
+    <title data-translate="Blog - QUOLYWHEELS">QUOLYWHEELS - Blog</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -956,8 +956,8 @@ $blog_posts = [
             <div id="progress-bar" class="progress-bar"></div>
           </div>
           
-          <!-- AUTOBUBA Text -->
-          <div class="autobuba-text">AUTOBUBA</div>
+          <!-- QUOLYWHEELS Text -->
+          <div class="quolywheels-text">QUOLYWHEELS</div>
         </div>
       </div>
         
@@ -966,7 +966,7 @@ $blog_posts = [
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="./index.php">
-                    <img src="img/logo zoom.png" alt="AUTOBUBA" class="img-fluid" style="max-height: 60px;">
+                    <img src="img/logo zoom.png" alt="QUOLYWHEELS" class="img-fluid" style="max-height: 60px;">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -1236,14 +1236,14 @@ $blog_posts = [
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <img src="img/logo zoom.png" alt="Autobuba Logo" class="img-fluid">
+                        <img src="img/logo zoom.png" alt="quolywheels Logo" class="img-fluid">
                     </div>
                     <div class="footer__contact-box">
-                        <p><i class="fa fa-envelope"></i> autobuba2025@gmail.com</p>
+                        <p><i class="fa fa-envelope"></i> quolywheels2025@gmail.com</p>
                         <p><i class="fa fa-phone"></i> +355 69 311 3209</p>
                     </div>
                     <div class="footer__social">
-                        <a href="https://www.tiktok.com/@autobuba1" class="social-btn tiktok" target="_blank">
+                        <a href="https://www.tiktok.com/@quolywheels1" class="social-btn tiktok" target="_blank">
                             <i class="fa-brands fa-tiktok"></i>
                         </a>
                         <a href="https://www.instagram.com/auto_buba?igsh=MWg1b213Y3oxeG1ydg=="
@@ -1352,7 +1352,7 @@ $blog_posts = [
 
     <!-- Cart JavaScript -->
     <script>
-    let cart = JSON.parse(localStorage.getItem('autobuba_cart')) || [];
+    let cart = JSON.parse(localStorage.getItem('quolywheels_cart')) || [];
 
     // Clean up any corrupted cart items
     cart = cart.filter(item => {
@@ -1365,7 +1365,7 @@ $blog_posts = [
     });
 
     // Save the cleaned cart back
-    localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+    localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
 
     document.addEventListener('DOMContentLoaded', function() {
         console.log('DOM loaded, initializing cart...');
@@ -1478,7 +1478,7 @@ $blog_posts = [
         cart = cart.filter(item => item && item.id !== vehicleId);
         
         if (cart.length < originalLength) {
-            localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+            localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
             updateCartCounter();
             showCartSidebar();
             
@@ -1554,7 +1554,7 @@ $blog_posts = [
         };
         
         cart.push(testItem);
-        localStorage.setItem('autobuba_cart', JSON.stringify(cart));
+        localStorage.setItem('quolywheels_cart', JSON.stringify(cart));
         updateCartCounter();
         showToast('success', 'Test item added to cart!');
     }
@@ -1570,7 +1570,7 @@ $blog_posts = [
         // Translations for the blog page
         const translations = {
             'en': {
-                "Blog - AUTOBUBA": "Blog - AUTOBUBA",
+                "Blog - QUOLYWHEELS": "Blog - QUOLYWHEELS",
                 "Cars": "Cars",
                 "Blog": "Blog",
                 "Car Details": "Car Details",
@@ -1641,7 +1641,7 @@ $blog_posts = [
                 "Copy": "Copy",
                 "Copied to clipboard!": "Copied to clipboard!",
                 "Close": "Close",
-                "© Copyright 2025 AUTOBUBA. All Rights Reserved.": "© Copyright 2025 AUTOBUBA. All Rights Reserved.",
+                "© Copyright 2025 QUOLYWHEELS. All Rights Reserved.": "© Copyright 2025 QUOLYWHEELS. All Rights Reserved.",
                 "Facebook": "Facebook",
                 "Twitter": "Twitter",
                 "Instagram": "Instagram",
@@ -1663,7 +1663,7 @@ $blog_posts = [
                 "Automotive Blog": "Automotive Blog"
             },
             'sq': {
-                "Blog - AUTOBUBA": "Blog - AUTOBUBA",
+                "Blog - QUOLYWHEELS": "Blog - QUOLYWHEELS",
                 "Cars": "Makinat",
                 "Blog": "Blog",
                 "Car Details": "Detajet e Makinës",
@@ -1734,7 +1734,7 @@ $blog_posts = [
                 "Copy": "Kopjo",
                 "Copied to clipboard!": "U kopjua në clipboard!",
                 "Close": "Mbyll",
-                "© Copyright 2025 AUTOBUBA. All Rights Reserved.": "© E drejta e autorit 2025 AUTOBUBA. Të gjitha të drejtat e rezervuara.",
+                "© Copyright 2025 QUOLYWHEELS. All Rights Reserved.": "© E drejta e autorit 2025 QUOLYWHEELS. Të gjitha të drejtat e rezervuara.",
                 "Facebook": "Facebook",
                 "Twitter": "Twitter",
                 "Instagram": "Instagram",

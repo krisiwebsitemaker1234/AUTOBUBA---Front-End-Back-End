@@ -250,7 +250,7 @@ $related_posts = array_slice($related_posts, 0, 2);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= htmlspecialchars($post['title']) ?> - AUTOBUBA Blog</title>
+    <title><?= htmlspecialchars($post['title']) ?> - QUOLYWHEELS Blog</title>
     <meta name="description" content="<?= htmlspecialchars($post['content']['intro']) ?>">
     
     <!-- Google Font -->
@@ -535,7 +535,7 @@ $related_posts = array_slice($related_posts, 0, 2);
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="./index.php">
-                    <img src="img/logo zoom.png" alt="AUTOBUBA" class="img-fluid" style="max-height: 60px;">
+                    <img src="img/logo zoom.png" alt="QUOLYWHEELS" class="img-fluid" style="max-height: 60px;">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -646,14 +646,14 @@ $related_posts = array_slice($related_posts, 0, 2);
             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <img src="img/logo zoom.png" alt="Autobuba Logo" class="img-fluid">
+                        <img src="img/logo zoom.png" alt="quolywheels Logo" class="img-fluid">
                     </div>
                     <div class="footer__contact-box">
-                        <p><i class="fa fa-envelope"></i> autobuba2025@gmail.com</p>
+                        <p><i class="fa fa-envelope"></i> quolywheels2025@gmail.com</p>
                         <p><i class="fa fa-phone"></i> +355 69 311 3209</p>
                     </div>
                     <div class="footer__social">
-                        <a href="https://www.tiktok.com/@autobuba1" class="social-btn tiktok" target="_blank">
+                        <a href="https://www.tiktok.com/@quolywheels1" class="social-btn tiktok" target="_blank">
                             <i class="fa-brands fa-tiktok"></i>
                         </a>
                         <a href="https://www.instagram.com/auto_buba?igsh=MWg1b213Y3oxeG1ydg=="
