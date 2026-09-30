@@ -3,9 +3,9 @@ session_start();
 
 // Database configuration
 $servername = "localhost";
-$username = "root";  // Your database username
-$password = "";      // Your database password
-$dbname = "quolywheels_db";  // Using your actual database name
+$username = "u208951792_usr_FXS6WN2t";  // Your database username
+$password = "AaS?Qc0@";      // Your database password
+$dbname = "u208951792_db_FXS6WN2t";  // Using your actual database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
